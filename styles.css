@@ -72,3 +72,51 @@ body {
     letter-spacing: normal;
     color: #60606e;
 }
+.header_info-content {
+    display: flex;
+}
+.header_info-picture {
+    margin-top: 107px;
+
+}
+.header_info-history {
+    margin-top: 129px;
+    margin-left: 127px;
+}
+.header_info-subtitle {
+    position: relative;
+    font-size: 30px;
+    line-height: 1.6;
+    z-index: 0;
+    font-weight: bold;
+    color: #60606e;
+}
+.header_info-subtitle::before {
+    content: '';
+    position: absolute;
+    width: 67px;
+    height: 21px;
+    top: 18px;
+    z-index: -1;
+    background-color: #7beec7;
+}
+.text {
+    line-height: 1.88;
+}
+.header_btn { 
+  width: 135px;
+  float: right;
+  margin-top: 40px;
+  background-color: #a5edc7;     
+}
+.btn {
+    font-family: "Montserrat", sans-serif;
+    width: 165px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 3.43;
+    border: 0;
+    color: #ffffff;
+    background-color: #7beec7;
+}
