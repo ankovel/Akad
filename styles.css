@@ -7,6 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 .header {
+    height: 850px;
     padding: 40px 80px;
     background: url('./images/img/home-background.jpg') no-repeat 0 0;
     background-size: cover;
@@ -37,5 +38,37 @@ body {
     text-decoration: none;
     font-size: 12px;
     font-weight: 700;
+    color: #60606e;
+}
+.header_info {
+  text-align: center;
+  margin-top: 148px;
+}
+.header_info-lable {
+    padding: 6px 9px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.9;
+    background-color: #7beec7;
+    color: #60606e;  
+}
+.header_info-title {
+    width: max-content;
+    margin: 0 auto;
+    padding: 10px 29px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+    color: #60606e;
+    border: solid 10px #60606e;
+    background-color: rgba(96, 96, 110, 0);
+}
+.header_info-text {
+    font-family: "OpenSans", sans-serif;
+    width: 555px;
+    margin: 25px auto 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: normal;
     color: #60606e;
 }
