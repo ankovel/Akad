@@ -181,25 +181,25 @@ body {
     margin-left: 102px;
     margin-top: 87px;
 }
-.content_portfolio {
+.portfolio {
     margin-top: 86px;
 }
-.content_portfolio-title {
+.portfolio_title {
     width: 260px;
 }
-.content_portfolio-list {
+.portfolio_list {
     list-style: none;
 }
-.content_portfolio-item {
+.portfolio_item {
     font-size: 14px;
     font-weight: bold;
     line-height: 3.43;
 }
-.content_portfolio-link {
+.portfolio_link {
     text-decoration: none;
     color: #60606e;   
 }
-.content_portfolio-item:first-child {
+.portfolio_item:first-child {
     background-color: #7beec7;
     width: 67px;
     height: 21px;
@@ -211,9 +211,6 @@ body {
     margin-top: 149px;
     background-color: #7beec7;
     padding: 45px 79px 45px 60px ;
-}
-.feedback_item {
-    
 }
 .feedback_title {
     width: 530px;
@@ -263,4 +260,64 @@ body {
 .feedback_input-btn {
     width: 135px;
 }
-
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+    padding: 0 80px;
+}
+.footer_nav {
+    display: flex;
+}
+.footer_nav-item, .footer_copyright-text {
+    font-family: "OpenSans", sans-serif;
+    position: relative;
+    margin-right: 45px;
+    font-size: 14px;
+    line-height: 3.43;
+    list-style: none;
+    text-transform: uppercase;
+}
+.footer_nav-item::before {
+    content: '';
+    display: flex;
+    top: 24px;
+    right: -24px;
+    position: absolute;
+    width: 3px;
+    height: 1px;
+    font-weight: bold;
+    background-color: #9a9a9a;
+}
+.footer_nav-item:last-child::before {
+    content: none;
+}
+.footer_nav-link {
+    text-decoration: none;
+    color: #9a9a9a;
+}
+.footer_copyright-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.footer_copyright-text {
+    margin-right: 0;
+    color: #9a9a9a;
+}
+.footer_icon {
+    display: flex;
+    margin-bottom: 45px;
+}
+.footer_item-icon {
+    width: 30px;
+    height: 29px;
+    list-style: none;
+}
+.footer_link-icon {
+    text-decoration: none;
+}
+.footer_icon-svg {
+    margin-left: 10px;
+    fill: #9a9a9a;;
+}
