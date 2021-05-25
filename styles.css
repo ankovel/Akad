@@ -346,6 +346,7 @@ body {
 }
 
 
+
 .banner {
     height: 500px;
     background: url('./images/img/banner-bg.jpg') no-repeat 0 0;
@@ -363,4 +364,57 @@ body {
     font-weight: bold;
     line-height: 3.43;
     color: #60606e;
+}
+.about {
+    display: flex;
+    margin-top: 143px;
+}
+.about-info {
+    margin-right: 32px;
+}
+.about-subtitle {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 800;
+}
+.about-text {
+    margin-top: 15px;
+    width: 601px;
+    line-height: 2.14;
+}
+.benefits {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ height: 402px;
+ margin-top: 94px;
+}
+.benefits-item {
+    margin-bottom: 44px;
+}
+.benefits-title {
+    margin-left: 20px;
+    font-size: 18px;
+
+}
+.benefits-text {
+    width: 404px;
+    margin: 0;
+    line-height: 2.14;
+}
+.benefits-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.benefist-icon {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    fill: #ffffff;
+    background-color: #7beec7;
+}
+.benefist-icon:hover {
+    fill: black;
+    cursor: pointer;
 }
