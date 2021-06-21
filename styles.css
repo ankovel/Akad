@@ -425,8 +425,6 @@ body {
     fill: black;
     cursor: pointer;
 }
-.team-wrapper {
-}
 .team {
     margin-top: 70px;
 }
@@ -522,4 +520,49 @@ body {
     text-decoration: none;  
 }
 
+
+
+.services {
+    display: flex;
+    margin-top: 80px;
+}
+.services-info {
+
+}
+.services-text {
+    width: 521px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 2.14;
+}
+.services-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+    cursor: pointer;
+}
+.services-item {
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
+    line-height: 2.14;
+    list-style: none;
+}
+.services-item::before {
+    content: "";
+    margin-right: 3px;
+    background: url('./images/icon/icon-done.svg') no-repeat 0 0;
+    background-size: 9px 7px;
+    background-position: center;
+    width: 10px;
+    height: 10px;
+    background-color: #7beec7;
+    display: inline-flex;
+
+
+}
+.services-img {
+    margin-left: 30px;
+}
 
