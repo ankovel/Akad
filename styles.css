@@ -559,10 +559,42 @@ body {
     height: 10px;
     background-color: #7beec7;
     display: inline-flex;
-
-
 }
 .services-img {
     margin-left: 30px;
 }
-
+.services-advantage {
+    display: flex;
+    margin-top: 144px;
+}
+.services-advantage_info {
+    position: relative;
+    text-align: center;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.services-advantage_bg {
+    display: flex; 
+    position: absolute;
+    width: 55px;
+    height: 21px;
+    top: 23px;
+    left: 95px;
+    z-index: -1;
+    background-color: #7beec7;
+}
+.services-advantage_icon {
+    width: 55px;
+    height: 50px;
+    fill:#60606e;;
+}
+.services-advantage_title {
+    font-size: 18px;
+    line-height: 1.67;
+    font-weight: bold;
+}
+.services-advantage_text {
+    font-family: "OpenSans", sans-serif;
+    width: 264px;
+    margin-top: 10px;
+}
