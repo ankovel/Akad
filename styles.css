@@ -526,9 +526,6 @@ body {
     display: flex;
     margin-top: 80px;
 }
-.services-info {
-
-}
 .services-text {
     width: 521px;
     margin-bottom: 25px;
@@ -597,4 +594,43 @@ body {
     font-family: "OpenSans", sans-serif;
     width: 264px;
     margin-top: 10px;
+}
+.pricing {
+    display: flex;
+    margin-top: 85px;
+}
+.pricing-info {
+    position: relative;
+    margin-right: 30px;
+    border-top: 5px solid #7beec7;
+    width: 360px;
+}
+.pricing-info::before {
+    content: " ";
+    right: 0;
+    position: absolute;
+    top: -5px;
+    border: 7px solid transparent; 
+    border-top: 7px solid #7beec7; 
+    border-right: 7px solid #7beec7;
+    max-width: 15px;
+    max-height: 15px
+}
+.pricing-info:last-child {
+    margin-right: 0;
+}
+.pricing-title {
+    margin-top: 28px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.pricing-btn-price {
+    margin-top: 10px;
+    height: 34px;
+}
+.pricing-list {
+    margin: 35px 0;
+}
+.pricing-btn {
+ width: 135px;
 }
