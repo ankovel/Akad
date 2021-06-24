@@ -636,6 +636,85 @@ body {
 }
 
 
+
+.blog-wrapper {
+    margin-top: 120px;
+    width: 750px;
+}
+.blog-content {
+    display: flex;
+    margin-top: 30px;
+}
+.blog-data { 
+    padding: 6px 10px;
+    margin-right: 10px;
+    background-color: #7beec7;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.blog-icon {
+    display: flex;
+    margin-right: 10px;
+    color: #cccccc;
+}
+.blog-icon_link {
+    display: flex;
+    margin-right: 10px;
+}
+.blog-svg {
+    width: 20px;
+    height: 20px;
+    fill: #cccccc;
+}
+.comment:hover {
+    cursor: pointer;
+    fill: #7beec7;
+}
+.blog-comment:hover {
+    cursor: pointer;
+    color: #7beec7;
+}
+.like {
+    fill: #ea6a6a;
+}
+.blog-title {
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.blog-text {
+    font-family: "OpenSans", sans-serif;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    letter-spacing: 0.4px;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #999999;
+}
+.more {
+    position: relative;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.more::after {
+    content: '➞';
+    position: absolute;
+    margin-left: 5px;
+}
+.more:hover::after {
+    color: #7beec7;
+}
+
+
+
+
+
+
+
 .sidebar {
 
 }
