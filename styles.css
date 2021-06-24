@@ -634,3 +634,80 @@ body {
 .pricing-btn {
  width: 135px;
 }
+
+
+.sidebar {
+
+}
+.sidebar_search {
+    position: relative;
+    margin-top: 150px;
+}
+.sidebar_search::after {
+    content: '';
+    position: absolute;
+    background: url(./images/icon/icon-search.svg) no-repeat 0 0;
+    width: 15px;
+    height: 15px;
+    top: 13px;
+    right: 20px;
+}
+.search_input {
+    width: 262px;
+    padding: 14px 15px;
+    background-color: #ececec;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 0;
+    outline: none; 
+}
+.sidebar-posts {
+
+}
+.sidebar-title {
+    margin-top: 40px;
+}
+.sidebar-posts_list {
+    display: flex;
+    margin-top: 11px;
+}
+.sidebar-posts_item {
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style: none;
+}
+.sidebar-posts_item:last-child {
+    margin-right: 0;
+}
+.sidebar-posts_link {
+    text-decoration: none;
+    color: #999999;
+}
+.sidebar-posts_wrapper {
+    margin-top: 33px;
+}
+.sidebar-posts_picture {
+    display: flex;
+}
+.sidebar-posts_img {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.sidebar-posts_img:last-child {
+    margin-bottom: 0;
+}
+.sidebar-posts_picture-info {
+    margin-top: 13px;
+}
+.sidebar-picture_title {
+    width: 156px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sidebar-posts_element {
+    font-family: "OpenSans", sans-serif;
+    font-size: 12px;
+}
