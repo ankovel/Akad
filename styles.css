@@ -735,7 +735,7 @@ body {
 .sidebar_search {
     position: relative;
 }
-.sidebar-posts, .sidebar-categories, .sidebar-tags {
+.sidebar-posts, .sidebar-categories, .sidebar-tags, .sidebar-archives {
     margin-top: 40px;
 }
 .sidebar_search::after {
