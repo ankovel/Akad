@@ -849,10 +849,13 @@ body {
 .contact {
     margin-top: 150px;
 }
-.contact-form_info {
+.contact-wrapper {
     display: flex;
-    flex-direction: column;
     width: 555px;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;   
 }
 .contact-form {
     display: flex;
@@ -875,7 +878,6 @@ body {
 }
 
 .object {
-    width: 555px;
     margin-top: 32px;
 }
 .textarea {
@@ -886,4 +888,33 @@ body {
 }
 .contact-btn {
     margin-top: 30px;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 99px;
+}
+.contact-info_title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-info_text {
+    margin: 30px 0;
+}
+.contact-info_element {
+    margin-top: 15px;
+}
+.contact-text {
+    font-size: 14px;
+    line-height: 2.14;
+    color: #999999;
+}
+.contact-info_link {
+    font-family: 'OpenSans', sans-serif;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    color: #989898;
 }
