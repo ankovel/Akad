@@ -854,11 +854,11 @@ body {
 }
 .contact-wrapper {
     display: flex;
-    width: 555px;
 }
 .contacts {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column; 
+    width: 555px;  
 }
 .contact-form {
     display: flex;
@@ -890,6 +890,7 @@ body {
     color: #cccccc;
 }
 .contact-btn {
+    cursor: pointer;
     margin-top: 30px;
 }
 .contact-info {
@@ -927,4 +928,13 @@ body {
 }
 .contact-icon_list {
     margin-bottom: 0;
+}
+.contact-map {
+    display: flex;
+    margin-left: auto;
+    width: 555px;
+}
+.contact-map_img {
+    width: 100%;
+    height: 100%;
 }
